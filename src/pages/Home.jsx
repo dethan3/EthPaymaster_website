@@ -17,7 +17,7 @@ export default function Home() {
       />
       <section className="w-[100%] flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
         <h1 className="text-center max-w-[18em]">
-          Solving Visions with Exceptional Web Experiences
+          ETHPaymaster
         </h1>
       </section>
       <section className="w-[100%] flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
@@ -27,7 +27,7 @@ export default function Home() {
       </section>
       <section className="w-[100%] flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
         <h2>Testimonials</h2>
-        <Testimonials />
+        {/* <Testimonials /> */}
       </section>
       <section className="w-[100%] flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
         <h2>Contact</h2>
