@@ -5,10 +5,10 @@ export const navMenu = [
         id: 'Home',
         href: '/',
     },
-    {
-        id: 'Services',
-        href: '/services',
-    },
+    // {
+    //     id: 'Services',
+    //     href: '/services',
+    // },
     {
         id: 'About',
         href: '/about',
@@ -26,7 +26,7 @@ export const projects = [
         altText: 'Screenshot of MindFit home page',
         ariaLabel: "Opens modal window with more information about the MindFit Mental Health web project",
         details: {
-            description: "MindFit Mental Health is located in East Rochester, New York. They provide strength-based individual and group mental health counseling services. They use cutting edge technology to help young people learn and practice skills in self-regulation, mindfulness, and positive thinking.",
+            description: "text-centerCompared to the Business, Closed Source, Central Relay Paymasters, we, ETHPaymaster provide a Community, Open Source, Decentralized Paymaster Framework to Sponsor Every Transaction.",
             technologies: [
                 {
                     title: 'HTML',
@@ -40,23 +40,23 @@ export const projects = [
                     title: 'JavaScript',
                     Icon: Icons.JavascriptIcon,
                 },
-                {
-                    title: 'WordPress',
-                    Icon: Icons.WordPressIcon,
+                // {
+                //     title: 'WordPress',
+                //     Icon: Icons.WordPressIcon,
 
-                },
-                {
-                    title: 'PHP',
-                    Icon: Icons.PHPIcon,
-                },
-                {
-                    title: 'BackEnd',
-                    Icon: Icons.DatabaseIcon,
-                },
-                {
-                    title: 'jQuery',
-                    Icon: Icons.JQueryIcon,
-                },
+                // },
+                // {
+                //     title: 'PHP',
+                //     Icon: Icons.PHPIcon,
+                // },
+                // {
+                //     title: 'BackEnd',
+                //     Icon: Icons.DatabaseIcon,
+                // },
+                // {
+                //     title: 'jQuery',
+                //     Icon: Icons.JQueryIcon,
+                // },
                 {
                     title: 'API',
                     Icon: Icons.APIIcon,
