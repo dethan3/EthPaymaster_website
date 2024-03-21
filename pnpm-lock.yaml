@@ -6,8 +6,11 @@ settings:
 
 dependencies:
   '@marsidev/react-turnstile':
-    specifier: ^0.3.1
+    specifier: ^0.3.2
     version: 0.3.2(react-dom@18.2.0)(react@18.2.0)
+  pnpm:
+    specifier: ^8.15.5
+    version: 8.15.5
   prop-types:
     specifier: ^15.8.1
     version: 15.8.1
@@ -18,42 +21,42 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-router-dom:
-    specifier: ^6.15.0
+    specifier: ^6.22.3
     version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/react':
-    specifier: ^18.2.15
+    specifier: ^18.2.64
     version: 18.2.64
   '@types/react-dom':
-    specifier: ^18.2.7
+    specifier: ^18.2.21
     version: 18.2.21
   '@vitejs/plugin-react':
-    specifier: ^4.0.3
+    specifier: ^4.2.1
     version: 4.2.1(vite@4.5.2)
   autoprefixer:
-    specifier: ^10.4.15
+    specifier: ^10.4.18
     version: 10.4.18(postcss@8.4.35)
   eslint:
-    specifier: ^8.45.0
+    specifier: ^8.57.0
     version: 8.57.0
   eslint-plugin-react:
-    specifier: ^7.32.2
+    specifier: ^7.34.0
     version: 7.34.0(eslint@8.57.0)
   eslint-plugin-react-hooks:
     specifier: ^4.6.0
     version: 4.6.0(eslint@8.57.0)
   eslint-plugin-react-refresh:
-    specifier: ^0.4.3
+    specifier: ^0.4.5
     version: 0.4.5(eslint@8.57.0)
   postcss:
-    specifier: ^8.4.28
+    specifier: ^8.4.35
     version: 8.4.35
   tailwindcss:
-    specifier: ^3.3.3
+    specifier: ^3.4.1
     version: 3.4.1
   vite:
-    specifier: ^4.4.5
+    specifier: ^4.5.2
     version: 4.5.2
 
 packages:
@@ -872,7 +875,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001596
+      caniuse-lite: 1.0.30001599
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -921,7 +924,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001596
+      caniuse-lite: 1.0.30001599
       electron-to-chromium: 1.4.699
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -948,8 +951,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite@1.0.30001596:
-    resolution: {integrity: sha512-zpkZ+kEr6We7w63ORkoJ2pOfBwBkY/bJrG/UZ90qNb45Isblu8wzDgevEOrRL1r9dWayHjYiiyCMEXPn4DweGQ==}
+  /caniuse-lite@1.0.30001599:
+    resolution: {integrity: sha512-LRAQHZ4yT1+f9LemSMeqdMpMxZcc4RMWdj4tiFe3G8tNkWK+E58g+/tzotb5cU6TbcVJLr4fySiAW7XmxQvZQA==}
     dev: true
 
   /chalk@2.4.2:
@@ -2196,6 +2199,12 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
     dev: true
+
+  /pnpm@8.15.5:
+    resolution: {integrity: sha512-sFGjLH5pWDO4SSbTspuMylclS1ifBknYmcbp0O22cLkex+KkNFm65zdZu1zmGcMmbxFr+THOItHvF1mn5Fqpbw==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
 
   /possible-typed-array-names@1.0.0:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}

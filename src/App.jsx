@@ -4,7 +4,7 @@ import PageStructure from "./components/PageStructure";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import About from "./pages/About";
-import Resume from "./pages/Resume";
+import Roadmap from "./pages/Roadmap";
 import ErrorPage from "./pages/404";
 import ThankYou from "./pages/ThankYou";
 
@@ -63,8 +63,8 @@ function App() {
           element: <About />,
         },
         {
-          path: "resume",
-          element: <Resume />,
+          path: "roadmap",
+          element: <Roadmap />,
         },
         {
           path: "thank-you",

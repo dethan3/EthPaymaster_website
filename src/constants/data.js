@@ -14,8 +14,8 @@ export const navMenu = [
         href: '/about',
     },
     {
-        id: 'Resume',
-        href: '/resume',
+        id: 'Roadmap',
+        href: '/roadmap',
     },
 ]
 
