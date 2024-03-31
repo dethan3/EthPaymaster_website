@@ -22,11 +22,11 @@ export const navMenu = [
 export const projects = [
     {
         title: 'ETHPaymaster',
-        src: '/assets/images/projects/mindfit.webp',
-        altText: 'Screenshot of MindFit home page',
-        ariaLabel: "Opens modal window with more information about the MindFit Mental Health web project",
+        src: '/assets/images/projects/ethpaymaster_logo.png',
+        altText: 'ETHPaymaster Logo',
+        ariaLabel: "Sponsor Every Tx",
         details: {
-            description: "text-centerCompared to the Business, Closed Source, Central Relay Paymasters, we, ETHPaymaster provide a Community, Open Source, Decentralized Paymaster Framework to Sponsor Every Transaction.",
+            description: "Compared to the Business, Closed Source, Central Relay Paymasters, we, ETHPaymaster provide a Community, Open Source, Decentralized Paymaster Framework to Sponsor Every Transaction.",
             technologies: [
                 {
                     title: 'HTML',
@@ -146,17 +146,17 @@ export const testimonials = [
 
 export const socialMedias = [
     {
-        href: '#',
+        href: 'mailto:jhfnetboy@gmail.com',
         ariaLabel: 'Compose an email to AAstart',
         title: 'Write an Email to AAstart',
         Icon: Icons.EmailIcon,
     },
-    {
-        href: '#',
-        ariaLabel: 'Goes to AAstart&apos;s LinkedIn profile',
-        title: 'LinkedIn Profile',
-        Icon: Icons.LinkedInIcon,
-    },
+    // {
+    //     href: '#',
+    //     ariaLabel: 'Goes to AAstart&apos;s LinkedIn profile',
+    //     title: 'LinkedIn Profile',
+    //     Icon: Icons.LinkedInIcon,
+    // },
     {
         href: 'https://github.com/AAStarCommunity',
         ariaLabel: 'Goes to AAstart&apos;s GitHub profile',
@@ -164,7 +164,7 @@ export const socialMedias = [
         Icon: Icons.GitHubIcon,
     },
     {
-        href: '#',
+        href: 'https://twitter.com/PlanckerDAO',
         ariaLabel: 'Goes to AAstart&apos;s Twitter profile',
         title: 'Twitter Profile',
         Icon: Icons.TwitterIcon,
