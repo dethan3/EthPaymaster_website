@@ -1,12 +1,11 @@
 import Navbar from '../components/Navbar';
+import MainSection from '@/components/MainSection';
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <main>
-        <h1 className="text-center text-3xl font-bold mt-10">Welcome to ETHPaymaster</h1>
-      </main>
+      <MainSection />
     </div>
   );
 }

@@ -21,23 +21,6 @@ const Navbar: React.FC = () => {
 export default Navbar;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import Link from 'next/link';
 
 // const Navbar = () => {
