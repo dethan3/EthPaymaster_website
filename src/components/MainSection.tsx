@@ -1,6 +1,14 @@
 import React from "react";
 
 const MainSection: React.FC = () => {
+    // const handleGetStartedClick = () => {
+    //     alert("Get Started button clicked!");
+    // };
+
+    // const handleDemoClick = () => {
+    //     alert("Demo button clicked!");
+    // };
+
     return (
         <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-800 to-indigo-900 text-white text-center p-8">
             <h1 className="text-4xl font-bold mb-4">Welcome to ETHPayMaster</h1>

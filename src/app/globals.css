@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+nav a:hover {
+  cursor: pointer;
+}
+
+.group:hover .absolute {
+  display: block;
+}
